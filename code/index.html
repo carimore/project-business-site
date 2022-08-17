@@ -4,13 +4,53 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Project 3</title>
+    <link rel="stylesheet" href="./style.css" />
     <!-- dont forget to add a css file and link it here! -->
   </head>
+  
   <body>
-    <!-- video or image as a header is cool :) -->
+   <div class = "grid-parent"> 
 
-    <!-- Signup form -->
+   <div class = "grid-header">
+     <header class="headerpic">
+       <img src="Images/Women Coding.png" alt="WomenCoding">
+       <h1> Join our community! </h1>
+     </header>    
+   </div>
+    
+    <div class="signup">
+     <form action="http://httpbin.org/anything" method="POST">
 
+      <label for="first-name">First name
+        <input type="text" name="first-name">
+      </label> 
+
+      <label for="last-name">Last name
+        <input type="text" name="last-name">
+      </label> 
+
+      <label for="e-mail">E-mail
+        <input type="email" name="e-mail">
+      </label>
+
+      <label for="country">Country
+        <input type="text" name="country">
+      </label>
+
+      <label for="current-job">Current-job
+        <input type="text" name="current-job">
+      </label>
+
+      <label for="coding-languages">Working coding languages
+        <input type="text" name="coding-languages">
+      </label>
+    
+    </form>
+   </div>
+
+  </div> 
+
+  <div class="grid-accordion">
     <section class="accordion">
       <!-- Accordion -->
       <h1>FAQ</h1>
@@ -25,6 +65,7 @@
         <p>Lorem ipsum...</p>
       </div>
     </section>
+  </div>
     <!-- dont forget to link the javascript file here! -->
   </body>
 </html>
