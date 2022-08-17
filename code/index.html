@@ -14,11 +14,15 @@
    <div class = "grid-header">
      <header class="headerpic">
        <img src="Images/Women Coding.png" alt="WomenCoding">
-       <h1> Join our community! </h1>
+      <div class="textimage"> 
+        <h1 class="h1"> WOMEN IN CODING </h1>
+        <h2> Join our community! </h2>
+      </div>
      </header>    
    </div>
     
     <div class="signup">
+      <h1>SIGN UP</h1>
      <form action="http://httpbin.org/anything" method="POST">
 
       <label for="first-name">First name
@@ -44,28 +48,34 @@
       <label for="coding-languages">Working coding languages
         <input type="text" name="coding-languages">
       </label>
+      
+      <button class="buttonsignup" type="submit">JOIN US</button>
     
     </form>
-   </div>
+   </div> <!--div for signup-->
 
-  </div> 
 
   <div class="grid-accordion">
     <section class="accordion">
-      <!-- Accordion -->
-      <h1>FAQ</h1>
-
-      <div class="question" id="section1">Section 1</div>
-      <div class="answer">
-        <p>Lorem ipsum...</p>
+      
+      <h1>Common Questions</h1>
+<!-- Accordion -->
+      <button class="question" id="question1" type="button">Can I sign up from anywhere in the world?</button>
+      <div class="answer1">
+        <p class= "answerp">Yes, everyone is welcome!</p>
       </div>
 
-      <div class="question" id="section2">Section 2</div>
-      <div class="answer">
-        <p>Lorem ipsum...</p>
+      <button class="question" id="question2">Do you do meetups?</button>
+      <div class="answer2">
+        <p class= "answerp">Yes, check our social media channels to see what is coming.</p>
       </div>
+
     </section>
   </div>
+
+</div> <!--div for grid-parent-->
+
     <!-- dont forget to link the javascript file here! -->
+    <script src="script.js"></script>
   </body>
 </html>
